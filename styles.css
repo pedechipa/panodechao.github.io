@@ -11,7 +11,7 @@
 body {
     font-family: var(--font-family-primary);
     background: var(--color-white);
-    color: var(--color-black);
+    color: var(--color-asfalto);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     height: 100vh;
@@ -27,6 +27,7 @@ h1 {
     line-height: var(--line-height-none);
     margin: 0;
     padding: 0;
+    color: var(--color-asfalto);
 }
 
 /* Responsive Design */
@@ -40,6 +41,6 @@ h1 {
 @media print {
     body {
         background: var(--color-white);
-        color: var(--color-black);
+        color: var(--color-asfalto);
     }
 } 

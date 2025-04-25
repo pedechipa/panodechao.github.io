@@ -1,8 +1,13 @@
 :root {
-    /* Colors */
-    --color-black: #1d1d1f;
-    --color-white: #ffffff;
-    --color-gray: #86868b;
+    /* Colors - Urban Palette */
+    --color-asfalto: #000000;        /* Preto Asfalto - base neutra urbana */
+    --color-concreto: #5A5A5A;       /* Concreto Urbano - cinza médio de concreto */
+    --color-selva: #00C853;          /* Selva Urbana - verde vibrante */
+    --color-sol: #FFD600;            /* Sol Ardente - amarelo quente */
+    --color-eletrico: #2979FF;       /* Azul Elétrico - azul urbano */
+    --color-areia: #EF6C00;          /* Areia Queimada - laranja terroso */
+    --color-acai: #9C27B0;           /* Roxo Açaí - roxo intenso */
+    --color-rosa: #F50057;           /* Rosa Choque - pink neon */
     
     /* Typography */
     --font-family-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
