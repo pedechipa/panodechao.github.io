@@ -30,6 +30,22 @@ h1 {
     color: var(--color-asfalto);
 }
 
+.main-title {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+.title-text {
+    font-size: clamp(4rem, 15vw, 20rem);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: var(--color-asfalto);
+    letter-spacing: 0.125rem;
+    margin: 0;
+    padding: 0;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     h1 {
