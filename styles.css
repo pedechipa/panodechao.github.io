@@ -46,6 +46,24 @@ h1 {
     padding: 0;
 }
 
+/* Footnote */
+.footnote {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-sm);
+    color: var(--color-concreto);
+    letter-spacing: var(--letter-spacing-wide);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.footnote:hover {
+    color: var(--color-asfalto);
+    transform: translateY(-2px);
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     h1 {
