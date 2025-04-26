@@ -35,12 +35,12 @@ h1 {
 
 .main-title {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     padding: 2rem 0;
 }
 
 .title-text {
-    font-size: clamp(2rem, 20vw, 12rem);
+    font-size: clamp(3rem, 15vw, 30rem);
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     color: var(--color-asfalto);
@@ -48,6 +48,10 @@ h1 {
     margin: 0;
     padding: 0;
 }
+
+.fixed-word {
+    width: 7ch; /* largura baseada no maior texto */
+  }
 
 /* Font Styles - Collection of typographic variations */
 .style1 { font-family: 'Helvetica Neue', sans-serif; font-weight: 400; }
@@ -65,7 +69,8 @@ h1 {
    Creates a vertical text carousel effect with smooth transitions.
    Each word appears from bottom, stays visible, then fades up.
    Uses absolute positioning and keyframe animations for the effect.
-*/.troca-palavras {
+*/
+.troca-palavras {
     display: inline-block;
     position: relative;
     width: 6ch; /* largura ajustável conforme as palavras */
@@ -78,7 +83,6 @@ h1 {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
     opacity: 0;
     visibility: hidden;
     animation: troca 12s steps(1, end) infinite;
