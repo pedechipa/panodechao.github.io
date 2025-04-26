@@ -10,7 +10,7 @@
 
 span {
     all: unset;
-  }
+}
 
 body {
     font-family: var(--font-family-primary);
@@ -36,13 +36,11 @@ h1 {
 .main-title {
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
     padding: 2rem 0;
 }
 
 .title-text {
-    font-size: clamp(4rem, 10vw, 20rem);
+    font-size: clamp(2rem, 20vw, 12rem);
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     color: var(--color-asfalto);
